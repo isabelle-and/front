@@ -1,0 +1,14 @@
+section.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        width: 70%;
+    }
+
+    div {
+        flex: 1;
+        //width: 50%;
+    }
+}

@@ -1,0 +1,23 @@
+@use '../../assets/colours';
+
+.menu {
+    display: flex;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        margin: 10px;
+        color: colours.$text;
+        padding-bottom: 4px;
+
+        &:hover, &.selected {
+            color: colours.$primary;
+            border-bottom: 3px solid colours.$primary;
+        }
+
+        &.selected {
+            font-weight: bold;
+        }
+
+    }
+}
